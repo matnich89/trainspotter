@@ -1,0 +1,10 @@
+[package]
+name = "national-rail-push-port-client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+flate2 = "1.0.35"
+tokio = { version = "1.43.0", features = ["full"] }
+serde = { version = "1.0.217", features = ["derive"] }
+quick-xml = { version = "0.37.2", features = ["serialize"] }
