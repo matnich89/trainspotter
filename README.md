@@ -30,7 +30,7 @@ use tokio;
 #[tokio::main]
 async fn main() {
     // Replace with your server's details.
-    let host = "your.stomp.server.com";
+    let host = "darwin-dist-44ae45.nationalrail.co.uk";
     let port = 61613;
     let username = "your_username";
     let password = "your_password";
